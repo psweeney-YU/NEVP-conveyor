@@ -1,0 +1,60 @@
+C:\Users\eming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\DPPDLL.dll
+C:\Users\eming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\MLib.dll
+C:\Users\eming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\DPPLibCom.dll
+C:\Users\eming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\DPPRSC.dll
+C:\Users\eming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\EDSDK.dll
+C:\Users\eming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\EdsImage.dll
+C:\Users\eming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\Ucs32P.dll
+C:\Users\eming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.dll
+C:\Users\eming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.pdb
+C:\Users\eming\Desktop\SDKs\CanonCameraAppLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\eming\Desktop\SDKs\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.dll
+C:\Users\eming\Desktop\SDKs\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.pdb
+C:\Users\Yiming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\DPPDLL.dll
+C:\Users\Yiming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\MLib.dll
+C:\Users\Yiming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\DPPLibCom.dll
+C:\Users\Yiming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\DPPRSC.dll
+C:\Users\Yiming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\EDSDK.dll
+C:\Users\Yiming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\EdsImage.dll
+C:\Users\Yiming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\Ucs32P.dll
+C:\Users\Yiming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.dll
+C:\Users\Yiming\Desktop\SDKs\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.pdb
+C:\Users\Yiming\Desktop\SDKs\CanonCameraAppLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Yiming\Desktop\SDKs\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.dll
+C:\Users\Yiming\Desktop\SDKs\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.pdb
+C:\Users\eming\Desktop\demo related\SDKs\CanonCameraAppLib\bin\Debug\DPPDLL.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonCameraAppLib\bin\Debug\MLib.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonCameraAppLib\bin\Debug\DPPLibCom.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonCameraAppLib\bin\Debug\DPPRSC.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonCameraAppLib\bin\Debug\EDSDK.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonCameraAppLib\bin\Debug\EdsImage.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonCameraAppLib\bin\Debug\Ucs32P.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.pdb
+C:\Users\eming\Desktop\demo related\SDKs\CanonCameraAppLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\eming\Desktop\demo related\SDKs\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.pdb
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonCameraAppLib\bin\Debug\DPPDLL.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonCameraAppLib\bin\Debug\MLib.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonCameraAppLib\bin\Debug\DPPLibCom.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonCameraAppLib\bin\Debug\DPPRSC.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonCameraAppLib\bin\Debug\EDSDK.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonCameraAppLib\bin\Debug\EdsImage.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonCameraAppLib\bin\Debug\Ucs32P.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.pdb
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.csprojResolveAssemblyReference.cache
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.pdb
+C:\Users\nevp4\Desktop\SDKs\CanonCameraAppLib\bin\Debug\DPPDLL.dll
+C:\Users\nevp4\Desktop\SDKs\CanonCameraAppLib\bin\Debug\MLib.dll
+C:\Users\nevp4\Desktop\SDKs\CanonCameraAppLib\bin\Debug\DPPLibCom.dll
+C:\Users\nevp4\Desktop\SDKs\CanonCameraAppLib\bin\Debug\DPPRSC.dll
+C:\Users\nevp4\Desktop\SDKs\CanonCameraAppLib\bin\Debug\EDSDK.dll
+C:\Users\nevp4\Desktop\SDKs\CanonCameraAppLib\bin\Debug\EdsImage.dll
+C:\Users\nevp4\Desktop\SDKs\CanonCameraAppLib\bin\Debug\Ucs32P.dll
+C:\Users\nevp4\Desktop\SDKs\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.dll
+C:\Users\nevp4\Desktop\SDKs\CanonCameraAppLib\bin\Debug\CanonCameraAppLib.pdb
+C:\Users\nevp4\Desktop\SDKs\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.csprojResolveAssemblyReference.cache
+C:\Users\nevp4\Desktop\SDKs\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.dll
+C:\Users\nevp4\Desktop\SDKs\CanonCameraAppLib\obj\Debug\CanonCameraAppLib.pdb

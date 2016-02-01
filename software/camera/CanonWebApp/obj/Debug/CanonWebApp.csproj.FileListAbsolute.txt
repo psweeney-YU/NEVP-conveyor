@@ -1,0 +1,75 @@
+C:\Users\eming\Desktop\SDKs\CanonWebApp\bin\DPPDLL.dll
+C:\Users\eming\Desktop\SDKs\CanonWebApp\bin\MLib.dll
+C:\Users\eming\Desktop\SDKs\CanonWebApp\bin\DPPLibCom.dll
+C:\Users\eming\Desktop\SDKs\CanonWebApp\bin\DPPRSC.dll
+C:\Users\eming\Desktop\SDKs\CanonWebApp\bin\EDSDK.dll
+C:\Users\eming\Desktop\SDKs\CanonWebApp\bin\EdsImage.dll
+C:\Users\eming\Desktop\SDKs\CanonWebApp\bin\Ucs32P.dll
+C:\Users\eming\Desktop\SDKs\CanonWebApp\bin\CanonWebApp.dll
+C:\Users\eming\Desktop\SDKs\CanonWebApp\bin\CanonWebApp.pdb
+C:\Users\eming\Desktop\SDKs\CanonWebApp\bin\CanonCameraAppLib.dll
+C:\Users\eming\Desktop\SDKs\CanonWebApp\bin\WayneHartmanUtilities.dll
+C:\Users\eming\Desktop\SDKs\CanonWebApp\bin\CanonCameraAppLib.pdb
+C:\Users\eming\Desktop\SDKs\CanonWebApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\eming\Desktop\SDKs\CanonWebApp\obj\Debug\CanonWebApp.dll
+C:\Users\eming\Desktop\SDKs\CanonWebApp\obj\Debug\CanonWebApp.pdb
+C:\Users\Yiming\Desktop\SDKs\CanonWebApp\bin\DPPDLL.dll
+C:\Users\Yiming\Desktop\SDKs\CanonWebApp\bin\MLib.dll
+C:\Users\Yiming\Desktop\SDKs\CanonWebApp\bin\DPPLibCom.dll
+C:\Users\Yiming\Desktop\SDKs\CanonWebApp\bin\DPPRSC.dll
+C:\Users\Yiming\Desktop\SDKs\CanonWebApp\bin\EDSDK.dll
+C:\Users\Yiming\Desktop\SDKs\CanonWebApp\bin\EdsImage.dll
+C:\Users\Yiming\Desktop\SDKs\CanonWebApp\bin\Ucs32P.dll
+C:\Users\Yiming\Desktop\SDKs\CanonWebApp\bin\CanonWebApp.dll
+C:\Users\Yiming\Desktop\SDKs\CanonWebApp\bin\CanonWebApp.pdb
+C:\Users\Yiming\Desktop\SDKs\CanonWebApp\bin\CanonCameraAppLib.dll
+C:\Users\Yiming\Desktop\SDKs\CanonWebApp\bin\WayneHartmanUtilities.dll
+C:\Users\Yiming\Desktop\SDKs\CanonWebApp\bin\CanonCameraAppLib.pdb
+C:\Users\Yiming\Desktop\SDKs\CanonWebApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Yiming\Desktop\SDKs\CanonWebApp\obj\Debug\CanonWebApp.dll
+C:\Users\Yiming\Desktop\SDKs\CanonWebApp\obj\Debug\CanonWebApp.pdb
+C:\Users\eming\Desktop\demo related\SDKs\CanonWebApp\bin\DPPDLL.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonWebApp\bin\MLib.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonWebApp\bin\DPPLibCom.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonWebApp\bin\DPPRSC.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonWebApp\bin\EDSDK.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonWebApp\bin\EdsImage.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonWebApp\bin\Ucs32P.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonWebApp\bin\CanonWebApp.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonWebApp\bin\CanonWebApp.pdb
+C:\Users\eming\Desktop\demo related\SDKs\CanonWebApp\bin\CanonCameraAppLib.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonWebApp\bin\WayneHartmanUtilities.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonWebApp\bin\CanonCameraAppLib.pdb
+C:\Users\eming\Desktop\demo related\SDKs\CanonWebApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\eming\Desktop\demo related\SDKs\CanonWebApp\obj\Debug\CanonWebApp.dll
+C:\Users\eming\Desktop\demo related\SDKs\CanonWebApp\obj\Debug\CanonWebApp.pdb
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonWebApp\bin\DPPDLL.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonWebApp\bin\MLib.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonWebApp\bin\DPPLibCom.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonWebApp\bin\DPPRSC.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonWebApp\bin\EDSDK.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonWebApp\bin\EdsImage.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonWebApp\bin\Ucs32P.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonWebApp\bin\CanonWebApp.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonWebApp\bin\CanonWebApp.pdb
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonWebApp\bin\CanonCameraAppLib.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonWebApp\bin\WayneHartmanUtilities.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonWebApp\bin\CanonCameraAppLib.pdb
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonWebApp\obj\Debug\CanonWebApp.csprojResolveAssemblyReference.cache
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonWebApp\obj\Debug\CanonWebApp.dll
+C:\Users\Yiming\Desktop\Desktop\test2\SDKs\CanonWebApp\obj\Debug\CanonWebApp.pdb
+C:\Users\nevp4\Desktop\SDKs\CanonWebApp\bin\DPPDLL.dll
+C:\Users\nevp4\Desktop\SDKs\CanonWebApp\bin\MLib.dll
+C:\Users\nevp4\Desktop\SDKs\CanonWebApp\bin\DPPLibCom.dll
+C:\Users\nevp4\Desktop\SDKs\CanonWebApp\bin\DPPRSC.dll
+C:\Users\nevp4\Desktop\SDKs\CanonWebApp\bin\EDSDK.dll
+C:\Users\nevp4\Desktop\SDKs\CanonWebApp\bin\EdsImage.dll
+C:\Users\nevp4\Desktop\SDKs\CanonWebApp\bin\Ucs32P.dll
+C:\Users\nevp4\Desktop\SDKs\CanonWebApp\bin\CanonWebApp.dll
+C:\Users\nevp4\Desktop\SDKs\CanonWebApp\bin\CanonWebApp.pdb
+C:\Users\nevp4\Desktop\SDKs\CanonWebApp\bin\CanonCameraAppLib.dll
+C:\Users\nevp4\Desktop\SDKs\CanonWebApp\bin\WayneHartmanUtilities.dll
+C:\Users\nevp4\Desktop\SDKs\CanonWebApp\bin\CanonCameraAppLib.pdb
+C:\Users\nevp4\Desktop\SDKs\CanonWebApp\obj\Debug\CanonWebApp.csprojResolveAssemblyReference.cache
+C:\Users\nevp4\Desktop\SDKs\CanonWebApp\obj\Debug\CanonWebApp.dll
+C:\Users\nevp4\Desktop\SDKs\CanonWebApp\obj\Debug\CanonWebApp.pdb

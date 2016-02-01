@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://main.herbarium.ou.edu/" targetNamespace="http://main.herbarium.ou.edu/" version="1.0">
+
+  <xs:element name="viTest1" type="tns:viTest1"/>
+
+  <xs:element name="viTest1Response" type="tns:viTest1Response"/>
+
+  <xs:element name="viTest2" type="tns:viTest2"/>
+
+  <xs:element name="viTest2Response" type="tns:viTest2Response"/>
+
+  <xs:element name="viTest3" type="tns:viTest3"/>
+
+  <xs:element name="viTest3Response" type="tns:viTest3Response"/>
+
+  <xs:complexType name="viTest1">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="viTest1Response">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="viTest2">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="viTest2Response">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="viTest3">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="viTest3Response">
+    <xs:sequence/>
+  </xs:complexType>
+</xs:schema>

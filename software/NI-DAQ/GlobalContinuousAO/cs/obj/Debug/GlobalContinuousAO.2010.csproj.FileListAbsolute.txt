@@ -1,0 +1,12 @@
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAO\cs\bin\Debug\GlobalContinuousAO.exe
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAO\cs\bin\Debug\GlobalContinuousAO.pdb
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAO\cs\bin\Debug\NationalInstruments.Common.Native.dll
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAO\cs\bin\Debug\NationalInstruments.UI.Styles3D.dll
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAO\cs\obj\Debug\NationalInstruments.Examples.GlobalContinuousAO.MainForm.resources
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAO\cs\obj\Debug\GlobalContinuousAO.exe.licenses
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAO\cs\obj\Debug\GlobalContinuousAO.exe
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAO\cs\obj\Debug\GlobalContinuousAO.pdb
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAO\cs\obj\Debug\GlobalContinuousAO.2010.csprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAO\cs\obj\Debug\GlobalContinuousAO.2010.csproj.GenerateResource.Cache
+C:\work\GlobalContinuousAO\cs\obj\Debug\GlobalContinuousAO.exe
+C:\work\GlobalContinuousAO\cs\obj\Debug\GlobalContinuousAO.pdb

@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ERDiagram version="1.1">
+  <Connection session="com.mysql.jdbc.Driver" database="herbarium" />
+  <Drawing gridVisible="false" snapOn="false" fastRouting="false" labelsVisible="true" />
+  <Tables>
+    <Table name="authority">
+      <Drawing expanded="true" location="1757,514" dimensions="250,90" />
+      <Columns>
+        <Column name="AuthorityId" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="AuthorityName" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="40" />
+        </Column>
+        <Column name="AuthorityTabClass" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="collection">
+      <Drawing expanded="true" location="1092,1322" dimensions="234,109" />
+      <Columns>
+        <Column name="CollectionId" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="CollectionCode" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="CollectionInfo" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="InstituteId" primary_key="false" foreign_key="true" required="false" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="collector">
+      <Drawing expanded="true" location="0,555" dimensions="254,189" />
+      <Columns>
+        <Column name="CollectorId" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="CollectorNo" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="20" />
+        </Column>
+        <Column name="CollectorInfoImage" primary_key="false" foreign_key="true" required="false" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="Institute" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+        <Column name="GUID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="512" />
+        </Column>
+        <Column name="CollectorFullName" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="512" />
+        </Column>
+        <Column name="CollectorInfo" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="512" />
+        </Column>
+        <Column name="Deleted" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="folder">
+      <Drawing expanded="true" location="436,1312" dimensions="217,129" />
+      <Columns>
+        <Column name="FolderId" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="FolderName" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="40" />
+        </Column>
+        <Column name="FolderPath" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="1024" />
+        </Column>
+        <Column name="FolderInfo" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="ParentId" primary_key="false" foreign_key="true" required="false" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="image_data">
+      <Drawing expanded="true" location="67,1332" dimensions="239,90" />
+      <Columns>
+        <Column name="ImageDataId" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="ImageDataPath" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="511" />
+        </Column>
+        <Column name="ImageDataType" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="image_raw">
+      <Drawing expanded="true" location="753,1332" dimensions="239,90" />
+      <Columns>
+        <Column name="ImageRawId" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="ImageRawPath" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="511" />
+        </Column>
+        <Column name="ImageRawName" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="institute">
+      <Drawing expanded="true" location="1370,1622" dimensions="233,110" />
+      <Columns>
+        <Column name="InstituteId" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="InstituteName" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="100" />
+        </Column>
+        <Column name="InstituteInfo" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="Deleted" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="ownership">
+      <Drawing expanded="true" location="1776,1322" dimensions="223,109" />
+      <Columns>
+        <Column name="OwnershipId" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="OwnerId" primary_key="false" foreign_key="true" required="true" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="rights" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="usage" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="spec_collector_map">
+      <Drawing expanded="true" location="260,191" dimensions="264,88" />
+      <Columns>
+        <Column name="SpecCollectorMapId" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="SpecimenId" primary_key="false" foreign_key="true" required="true" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="CollectorId" primary_key="false" foreign_key="true" required="true" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="specimen">
+      <Drawing expanded="true" location="896,188" dimensions="291,924" />
+      <Columns>
+        <Column name="SpecimenId" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="Barcode" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="CollectionCode" primary_key="false" foreign_key="true" required="false" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="SpecimenType" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+        <Column name="ScientificName" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="Family" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="Genus" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="InfraspecificRank" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="32" />
+        </Column>
+        <Column name="InfraspecificEpithet" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="SpecificEpithet" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="RecordDate" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="RecordUser" primary_key="false" foreign_key="true" required="false" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="RecordEnterBy" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="ScientificNameAuthorship" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="Country" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="DarwinCountry" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="County" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="StateProvince" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="Town" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="VerbatimEventDate" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="RawImage" primary_key="false" foreign_key="true" required="false" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="ParentId" primary_key="false" foreign_key="true" required="false" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="BeginEventDate" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="EndEventDate" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="Watermark" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="WatermarkDate" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="SheetNotes" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="4096" />
+        </Column>
+        <Column name="GeneralNotes" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="4096" />
+        </Column>
+        <Column name="CollectorNotes" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="4096" />
+        </Column>
+        <Column name="WrittenNumber" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+        <Column name="FolderNumber" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+        <Column name="Herbarium" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="40" />
+        </Column>
+        <Column name="SpecimenInfoImage" primary_key="false" foreign_key="true" required="false" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="IdentificationQualifier" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="RecordNumber" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="45" />
+        </Column>
+        <Column name="CreationDate" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="ModificationDate" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="MissingInfo" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+        <Column name="ImageError" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+        <Column name="ExportDate" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="Checksum" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="36" />
+        </Column>
+        <Column name="System" primary_key="false" foreign_key="true" required="false" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="StorageLocation" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="RecordedByGUID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="512" />
+        </Column>
+        <Column name="iDropSync" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="TINYINT" size="3" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="system_setting">
+      <Drawing expanded="true" location="1394,176" dimensions="265,309" />
+      <Columns>
+        <Column name="SettingId" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="SystemId" primary_key="false" foreign_key="true" required="true" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="SettingDate" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="CameraName" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="CameraExpoTime" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="20" />
+        </Column>
+        <Column name="CameraAperture" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+        <Column name="CameraISO" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+        <Column name="ColorTargetPositionX" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+        <Column name="ColorTargetPositionY" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+        <Column name="WorkspacePath" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="InstallationURL" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="ConveyorVoltage" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+        <Column name="SensorVoltage" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+        <Column name="Deleted" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="system">
+      <Drawing expanded="true" location="1426,1322" dimensions="250,109" />
+      <Columns>
+        <Column name="SystemId" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="SystemDescription" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="Owner" primary_key="false" foreign_key="true" required="true" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="Deleted" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="taxa_bonap">
+      <Drawing expanded="true" location="379,1514" dimensions="242,230" />
+      <Columns>
+        <Column name="ID" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="INT" size="10" />
+        </Column>
+        <Column name="Family" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="Genus" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="SpecificEpithet" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="SubspecificEpithet" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="InfraspecificEpithet" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="InfraspecificRank" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="Authorship" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="BONAP_ID" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="45" />
+        </Column>
+        <Column name="UUID" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="37" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="user_authority_map">
+      <Drawing expanded="true" location="1771,740" dimensions="266,88" />
+      <Columns>
+        <Column name="UserAuthorityMapId" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="UserId" primary_key="false" foreign_key="true" required="true" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="AuthorityId" primary_key="false" foreign_key="true" required="true" unique="false">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+      </Columns>
+    </Table>
+    <Table name="user">
+      <Drawing expanded="true" location="1772,898" dimensions="237,290" />
+      <Columns>
+        <Column name="UserId" primary_key="true" foreign_key="false" required="true" unique="true">
+          <Data type="INT UNSIGNED" size="10" />
+        </Column>
+        <Column name="Username" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="40" />
+        </Column>
+        <Column name="Password" primary_key="false" foreign_key="false" required="true" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="UUID" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="37" />
+        </Column>
+        <Column name="WorksplaceURL" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="512" />
+        </Column>
+        <Column name="Email" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="IPlantUserName" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="20" />
+        </Column>
+        <Column name="IPlantPassword" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="iPlantAddress" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="iPlantZone" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="VARCHAR" size="255" />
+        </Column>
+        <Column name="Deleted" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="INT" size="10" />
+        </Column>
+        <Column name="CreateTime" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+        <Column name="LastLoginTime" primary_key="false" foreign_key="false" required="false" unique="false">
+          <Data type="DATETIME" size="19" />
+        </Column>
+      </Columns>
+    </Table>
+  </Tables>
+  <Relationships>
+    <Relationship name="collection_fk">
+      <Details primary_table="institute" foreign_table="collection">
+        <PrimaryKeys>
+          <ColumnName name="InstituteId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="InstituteId" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+    <Relationship name="collector_fk2">
+      <Details primary_table="image_data" foreign_table="collector">
+        <PrimaryKeys>
+          <ColumnName name="ImageDataId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="CollectorInfoImage" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+    <Relationship name="folder_fk1">
+      <Details primary_table="folder" foreign_table="folder">
+        <PrimaryKeys>
+          <ColumnName name="FolderId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="ParentId" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+    <Relationship name="ownership_fk2">
+      <Details primary_table="institute" foreign_table="ownership">
+        <PrimaryKeys>
+          <ColumnName name="InstituteId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="OwnerId" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+    <Relationship name="spec_collector_map_fk2">
+      <Details primary_table="collector" foreign_table="spec_collector_map">
+        <PrimaryKeys>
+          <ColumnName name="CollectorId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="CollectorId" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+    <Relationship name="spec_collector_map_fk1">
+      <Details primary_table="specimen" foreign_table="spec_collector_map">
+        <PrimaryKeys>
+          <ColumnName name="SpecimenId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="SpecimenId" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+    <Relationship name="specimen_fk4">
+      <Details primary_table="folder" foreign_table="specimen">
+        <PrimaryKeys>
+          <ColumnName name="FolderId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="ParentId" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+    <Relationship name="specimen_fk5">
+      <Details primary_table="image_data" foreign_table="specimen">
+        <PrimaryKeys>
+          <ColumnName name="ImageDataId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="SpecimenInfoImage" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+    <Relationship name="specimen_fk1">
+      <Details primary_table="user" foreign_table="specimen">
+        <PrimaryKeys>
+          <ColumnName name="UserId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="RecordUser" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+    <Relationship name="specimen_fk2">
+      <Details primary_table="system" foreign_table="specimen">
+        <PrimaryKeys>
+          <ColumnName name="SystemId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="System" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+    <Relationship name="specimen_fk3">
+      <Details primary_table="image_raw" foreign_table="specimen">
+        <PrimaryKeys>
+          <ColumnName name="ImageRawId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="RawImage" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+    <Relationship name="specimen_fk">
+      <Details primary_table="collection" foreign_table="specimen">
+        <PrimaryKeys>
+          <ColumnName name="CollectionId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="CollectionCode" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+    <Relationship name="system_setting_fk1">
+      <Details primary_table="system" foreign_table="system_setting">
+        <PrimaryKeys>
+          <ColumnName name="SystemId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="SystemId" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+    <Relationship name="system_fk1">
+      <Details primary_table="institute" foreign_table="system">
+        <PrimaryKeys>
+          <ColumnName name="InstituteId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="Owner" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+    <Relationship name="user_authority_map_fk1">
+      <Details primary_table="user" foreign_table="user_authority_map">
+        <PrimaryKeys>
+          <ColumnName name="UserId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="UserId" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+    <Relationship name="user_authority_map_fk2">
+      <Details primary_table="authority" foreign_table="user_authority_map">
+        <PrimaryKeys>
+          <ColumnName name="AuthorityId" />
+        </PrimaryKeys>
+        <ForeignKeys>
+          <ColumnName name="AuthorityId" />
+        </ForeignKeys>
+      </Details>
+      <Drawing routingType="0" />
+    </Relationship>
+  </Relationships>
+</ERDiagram>
+

@@ -1,0 +1,82 @@
+c:\users\touchscreen\documents\visual studio 2012\Projects\Testing1\Testing1\bin\Debug\Testing1.exe.config
+c:\users\touchscreen\documents\visual studio 2012\Projects\Testing1\Testing1\bin\Debug\Testing1.exe
+c:\users\touchscreen\documents\visual studio 2012\Projects\Testing1\Testing1\bin\Debug\Testing1.pdb
+c:\users\touchscreen\documents\visual studio 2012\Projects\Testing1\Testing1\bin\Debug\Testing1.xml
+c:\users\touchscreen\documents\visual studio 2012\Projects\Testing1\Testing1\obj\Debug\Testing1.Resources.resources
+c:\users\touchscreen\documents\visual studio 2012\Projects\Testing1\Testing1\obj\Debug\Testing1.vbproj.GenerateResource.Cache
+c:\users\touchscreen\documents\visual studio 2012\Projects\Testing1\Testing1\obj\Debug\Testing1.exe
+c:\users\touchscreen\documents\visual studio 2012\Projects\Testing1\Testing1\obj\Debug\Testing1.xml
+c:\users\touchscreen\documents\visual studio 2012\Projects\Testing1\Testing1\obj\Debug\Testing1.pdb
+c:\users\touchscreen\documents\visual studio 2012\Projects\Testing1\Testing1\obj\Debug\Testing1.InputForm.resources
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Testing1\Testing1\obj\Debug\Testing1.Login.resources
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Testing1\Testing1\obj\Debug\Testing1.ClientForm.resources
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Testing1\Testing1\bin\Debug\ClientExample.exe
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Testing1\Testing1\bin\Debug\ServerExample.exe
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Testing1\Testing1\bin\Debug\ClientExample.pdb
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Testing1\Testing1\bin\Debug\ClientExample.xml
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Testing1\Testing1\bin\Debug\ServerExample.pdb
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Testing1\Testing1\bin\Debug\ServerExample.xml
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Testing1\Testing1\obj\Debug\Testing1.vbprojResolveAssemblyReference.cache
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\bin\Debug\Testing1.exe.config
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\bin\Debug\Testing1.exe
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\bin\Debug\Testing1.pdb
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\bin\Debug\Testing1.xml
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\bin\Debug\EntityFramework.dll
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\bin\Debug\ServerExample.exe
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\bin\Debug\ServerExample.pdb
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\bin\Debug\ServerExample.xml
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\bin\Debug\EntityFramework.xml
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\obj\Debug\Testing1.vbprojResolveAssemblyReference.cache
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\obj\Debug\Interop.SpeechLib.dll
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\obj\Debug\Testing1.vbproj.ResolveComReference.cache
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\obj\Debug\Testing1.ClientForm.resources
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\obj\Debug\Testing1.Login.resources
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\obj\Debug\Testing1.Resources.resources
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\obj\Debug\Testing1.InputForm.resources
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\obj\Debug\Testing1.vbproj.GenerateResource.Cache
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\obj\Debug\Testing1.exe
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\obj\Debug\Testing1.xml
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1\Testing1\obj\Debug\Testing1.pdb
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\bin\Debug\Testing1.exe.config
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\obj\Debug\Interop.SpeechLib.dll
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\obj\Debug\Testing1.vbproj.ResolveComReference.cache
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\obj\Debug\Testing1.exe
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\obj\Debug\Testing1.xml
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\obj\Debug\Testing1.pdb
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\bin\Debug\Testing1.exe
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\bin\Debug\Testing1.pdb
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\bin\Debug\Testing1.xml
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\bin\Debug\EntityFramework.dll
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\bin\Debug\EntityFramework.xml
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\obj\Debug\Testing1.vbprojResolveAssemblyReference.cache
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\obj\Debug\Testing1.ClientForm.resources
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\obj\Debug\Testing1.Login.resources
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\obj\Debug\Testing1.Resources.resources
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\obj\Debug\Testing1.InputForm.resources
+C:\Users\Yiming\Desktop\Input Interface Beta V1\Testing1\obj\Debug\Testing1.vbproj.GenerateResource.Cache
+C:\Users\Yiming\Desktop\Input Interface Beta V1_Yiming_Update\Testing1\bin\Debug\Testing1.exe.config
+C:\Users\Yiming\Desktop\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Interop.SpeechLib.dll
+C:\Users\Yiming\Desktop\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.vbproj.ResolveComReference.cache
+C:\Users\Yiming\Desktop\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.exe
+C:\Users\Yiming\Desktop\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.xml
+C:\Users\Yiming\Desktop\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.pdb
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\bin\Debug\Testing1.exe.config
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Interop.SpeechLib.dll
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.vbproj.ResolveComReference.cache
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.exe
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.xml
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.pdb
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\bin\Debug\Testing1.exe
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\bin\Debug\Testing1.pdb
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\bin\Debug\Testing1.xml
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\bin\Debug\EntityFramework.dll
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\bin\Debug\EntityFramework.xml
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.vbprojResolveAssemblyReference.cache
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.ClientForm.resources
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.Login.resources
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.Resources.resources
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.InputForm.resources
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.vbproj.GenerateResource.Cache
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.TheTester.resources
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.CameraPosition.resources
+C:\Users\TouchScreen\Documents\Visual Studio 2012\Projects\Input Interface Beta V1_Yiming_Update\Input Interface Beta V1_Yiming_Update\Testing1\obj\Debug\Testing1.About.resources

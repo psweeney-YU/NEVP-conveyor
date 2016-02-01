@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="CanonWebApp.MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <head runat="server">
+        <title>Untitled Page</title>
+        <meta name="viewport" content="width=320" />
+        <link rel="apple-touch-icon" href="images/webClip.png" />
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+    <body style="width:318px; margin-left:auto; margin-right:auto; padding:0px;">
+        <form id="form1" runat="server">
+        <div style="background:url('images/controlbg.png') center no-repeat; height:478px; padding:10px; width:260px; margin-left:auto; margin-right:auto; padding-top:0px;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        </form>
+    </body>
+</html>

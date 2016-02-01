@@ -1,0 +1,10 @@
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAI_USB\cs\bin\Debug\GlobalContinuousAI_Usb.exe
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAI_USB\cs\bin\Debug\GlobalContinuousAI_Usb.pdb
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAI_USB\cs\bin\Debug\NationalInstruments.Common.Native.dll
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAI_USB\cs\bin\Debug\NationalInstruments.UI.Styles3D.dll
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAI_USB\cs\obj\Debug\NationalInstruments.Examples.GlobalContinuousAI_USB.MainForm.resources
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAI_USB\cs\obj\Debug\GlobalContinuousAI_USB.2010.csproj.GenerateResource.Cache
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAI_USB\cs\obj\Debug\GlobalContinuousAI_Usb.exe.licenses
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAI_USB\cs\obj\Debug\GlobalContinuousAI_Usb.exe
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAI_USB\cs\obj\Debug\GlobalContinuousAI_Usb.pdb
+C:\Users\Public\Documents\National Instruments\MStudioVS2010\DotNET\Examples\DAQmxWithUI\GlobalContinuousAI_USB\cs\obj\Debug\GlobalContinuousAI_USB.2010.csprojResolveAssemblyReference.cache

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{108A47EB-28C5-4196-AA16-8488083EDE27}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CanonCameraAppLib</RootNamespace>
+    <AssemblyName>CanonCameraAppLib</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WayneHartmanUtilities, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Utilities\Utilities\bin\Debug\WayneHartmanUtilities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BatteryState.cs" />
+    <Compile Include="Camera.cs" />
+    <Compile Include="CameraAPI.cs" />
+    <Compile Include="CameraConstants.cs" />
+    <Compile Include="CapturedItem.cs" />
+    <Compile Include="Events\BulbExposureEventArgs.cs" />
+    <Compile Include="Events\CameraAddedEventArgs.cs" />
+    <Compile Include="Events\CameraBusyEventArgs.cs" />
+    <Compile Include="Events\NewItemCreatedEventArgs.cs" />
+    <Compile Include="Events\ProgressEventArgs.cs" />
+    <Compile Include="Exceptions\CameraCaptureException.cs" />
+    <Compile Include="Exceptions\CameraCommunicationException.cs" />
+    <Compile Include="Events\CameraEventArgs.cs" />
+    <Compile Include="Exceptions\CameraDownloadException.cs" />
+    <Compile Include="Exceptions\CameraEventRegistrationException.cs" />
+    <Compile Include="Exceptions\CameraException.cs" />
+    <Compile Include="Exceptions\CameraNotFoundException.cs" />
+    <Compile Include="Directory.cs" />
+    <Compile Include="EDSDK.cs" />
+    <Compile Include="ErrorCodes.cs" />
+    <Compile Include="Events\InternalErrorEventArgs.cs" />
+    <Compile Include="Events\VolumeInfoChangedEventArgs.cs" />
+    <Compile Include="Exceptions\CameraUILockException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Events\PropertyChangedEventArgs.cs" />
+    <Compile Include="Exceptions\PropertyUnavailableException.cs" />
+    <Compile Include="Property.cs" />
+    <Compile Include="PropertyManager.cs" />
+    <Compile Include="PropertyType.cs" />
+    <Compile Include="Remote\RemoteClient.cs" />
+    <Compile Include="Remote\RemoteCommand.cs" />
+    <Compile Include="Remote\RemoteCommandEventArgs.cs" />
+    <Compile Include="Remote\RemoteMessage.cs" />
+    <Compile Include="Remote\RemoteServer.cs" />
+    <Compile Include="Events\ShutdownEminentEventArgs.cs" />
+    <Compile Include="Events\ShutdownEventArgs.cs" />
+    <Compile Include="Events\ShutdownTimerUpdateEventArgs.cs" />
+    <Compile Include="ShutterState.cs" />
+    <Compile Include="StorageMedia.cs" />
+    <Compile Include="StorageMediaType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Documentation\CanonCameraApp.cd" />
+    <None Include="Documentation\Events.cd" />
+    <None Include="Documentation\Exceptions.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DPPDLL.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MLib.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DPPLibCom.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DPPRSC.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EDSDK.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EdsImage.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ucs32P.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,428 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<html lang="">
+  <head>
+    <title>imageViewIframe</title>
+   
+    <style type="text/css"> /* key DIVs in imageiframe.aspx */ #dragContainer { position:absolute; z-index:1; left:0px; top:0px; }
+	#topmargin { position:absolute; z-index:3; left:10px; top:0px; background-color:#ddd; text-align:left; filter:alpha(opacity=70); moz-opacity:.70; opacity:.70; -moz-box-sizing:border-box; width:100%; height:15px; }
+	#sidemargin { position:absolute; z-index:4; left:0px; top:0px; background-color:#ddd; text-align:left; filter:alpha(opacity=70); moz-opacity:.70; opacity:.70; -moz-box-sizing:border-box; height:100%; width:10px; }
+	/* Zoom buttons */ 
+	.viewerlink 
+	{ 
+	    display:block; 
+	    float:left; 
+	    font-family:Verdana; 
+	    font-size:70%; 
+	    padding-left:5px; 
+	    padding-right:5px; 
+	    color:#555; 
+	    text-decoration:none; 
+	    font-weight:bold; 
+	}
+	a.greyout 
+	{ 
+	    display:block; 
+	    float:left; 
+	    font-family:Verdana; 
+	    font-size:70%; 
+	    padding-left:5px; 
+	    padding-right:5px; 
+	    color:#999; 
+	    text-decoration:none; 
+	    font-weight:bold; 
+	}
+	a.viewerlink:hover 
+	{ 
+	    background-color:#999; 
+	}
+	
+	div#loading
+	{
+	    width:200px;
+	    height:76px;
+	    font-family:Verdana; 
+	    font-size:70%; 
+	    font-weight:normal;
+	    border:solid 1px #555;
+	    left:25%;
+	    top:40%;
+	    position:absolute;
+	    z-index:5;
+	    background-color:white;
+	    text-align:center;
+	    padding:18px;
+	    color:#555;
+	}
+	
+	div#loading img
+	{
+
+	    margin-top:9px;
+    }
+	
+	</style>
+    <script type="text/javascript" src="browser.js"></script>
+    <script>
+		urlinfo=window.location.href;
+		len=urlinfo.length;
+		offset=urlinfo.indexOf("?");
+		newsidinfo=urlinfo.substr(offset,len);
+		newsids=newsidinfo.split("=");
+		newsid=newsids[1];
+	</script>
+    <script type="text/javascript">//<![CDATA[
+
+		var browser = new Browser();
+
+		
+		var dragObject = new Object();
+		var newContainer;
+		var newImage;
+		var loaded = false;
+		
+		
+		var factor = 0.125;
+		var currentCompression = 85;
+		var defaultCompression = 85;
+
+		var currentOffsetX = 0;
+		var currentOffsetY = 0;
+		var viewportWidth = 0;
+		var viewportHeight = 0;
+		
+		var panOffset = 25;
+		
+		function dragStart(event) 
+		{
+			var x, y;
+ 
+			
+			
+			if (browser.isIE) {
+				x = window.event.clientX + document.documentElement.scrollLeft
+				+ document.body.scrollLeft;
+				y = window.event.clientY + document.documentElement.scrollTop
+				+ document.body.scrollTop;
+			}
+			if (browser.isMoz) {
+				x = event.clientX + window.scrollX;
+				y = event.clientY + window.scrollY;
+			}
+			
+			
+			dragObject.cursorStartX = x;
+			dragObject.cursorStartY = y;
+			dragObject.startLeft  = parseInt(dragObject.dragContainer.style.left, 10);
+			dragObject.startTop   = parseInt(dragObject.dragContainer.style.top,  10);
+
+			if (isNaN(dragObject.startLeft)) dragObject.startLeft = 0;
+			if (isNaN(dragObject.startTop))  dragObject.startTop  = 0;
+
+			
+			if (browser.isIE) 
+			{
+				document.attachEvent("onmousemove", dragGo);
+				document.attachEvent("onmouseup",   dragStop);
+				window.event.cancelBubble = true;
+				window.event.returnValue = false;
+			}
+			if (browser.isMoz)
+			{
+				document.addEventListener("mousemove", dragGo,   true);
+				document.addEventListener("mouseup",   dragStop, true);
+				event.preventDefault();
+			}
+		}
+
+		function dragGo(event) 
+		{
+			var x, y;
+
+			
+			if (browser.isIE) 
+			{
+				x = window.event.clientX  + document.documentElement.scrollLeft
+				+ document.body.scrollLeft;
+				y = window.event.clientY + document.documentElement.scrollTop
+				+ document.body.scrollTop;
+			}
+			if (browser.isMoz) 
+			{
+				x = event.clientX + window.scrollX;
+				y = event.clientY + window.scrollY;
+			}
+
+			
+			currentOffsetX = (dragObject.startLeft + x - dragObject.cursorStartX) ;
+			currentOffsetY = (dragObject.startTop  + y - dragObject.cursorStartY) ;
+			
+			dragObject.dragContainer.style.left = currentOffsetX + "px";
+			dragObject.dragContainer.style.top  = currentOffsetY + "px";
+			
+			if (browser.isIE) 
+			{
+				window.event.cancelBubble = true;
+				window.event.returnValue = false;
+			}
+			if (browser.isMoz) event.preventDefault();
+			
+		}
+
+		function dragStop(event) 
+		{
+
+			
+
+			if (browser.isIE) 
+			{
+				document.detachEvent("onmousemove", dragGo);
+				document.detachEvent("onmouseup",   dragStop);
+			}
+			if (browser.isMoz) 
+			{
+				document.removeEventListener("mousemove", dragGo,   true);
+				document.removeEventListener("mouseup",   dragStop, true);
+			}
+			//alert("position: " + dragObject.dragContainer.style.left + " " + dragObject.dragContainer.style.top );
+			//alert( offsetX + ", " + offsetY );
+		}
+		
+		function zoomIn ()
+		{
+			if ( factor >= 1 ) 
+			{
+				//alert ("that is as far as we can go" );
+			}
+			else
+			{
+				zoom ( ( factor * 2 ) * 100, defaultCompression );
+				if ( factor >= 1 )
+				{
+				    document.getElementById("zoominlink").className = "greyout";
+				}
+				document.getElementById("zoomoutlink").className = "viewerlink";
+			}
+		}
+		
+		function zoomOut ()
+		{
+			if ( factor <= 0.1 ) 
+			{
+				//alert ("that is as far as we can go" );
+			}
+			else
+			{
+				zoom ( ( factor / 2 ) * 100, defaultCompression );
+				if ( factor <= 0.1 )
+				{
+				    document.getElementById("zoomoutlink").className = "greyout";
+				}
+				document.getElementById("zoominlink").className = "viewerlink";
+			}
+		}
+			
+		function zoom ( zoomFactor, comp )
+		{
+			
+			loaded = false;
+			document.getElementById("imageSizeDisplay").innerHTML = "Loading image...";
+			document.getElementById("loading").style.visibility = "visible";
+			
+			var parent = document.getElementById("outer");
+			var child = document.getElementById("dragContainer");
+			parent.removeChild (child);
+			
+			newFactor = zoomFactor / 100;
+			centreX = (viewportWidth/2) - currentOffsetX;
+			centreY = (viewportHeight/2) - currentOffsetY;
+			newcentreX = centreX * ( newFactor / factor );
+			newcentreY = centreY * ( newFactor / factor );
+			currentOffsetX = ((viewportWidth/2) - newcentreX);
+			currentOffsetY = ((viewportHeight/2)- newcentreY);
+			
+			newContainer = document.createElement("div");
+			newContainer.setAttribute ("id", "dragContainer" );
+			newContainer.style.position = "absolute";	
+			newContainer.style.left = currentOffsetX + "px";
+			newContainer.style.top = currentOffsetY + "px";
+			newContainer.style.zIndex = 1;
+				
+			parent.appendChild ( newContainer );
+			
+			dragObject.dragContainer = document.getElementById("dragContainer");
+			
+			factor = newFactor;
+			
+			newImage = document.createElement ("img");
+			newImage.setAttribute ("id", "image1" );
+			newImage.style.zIndex = 2;
+			newImage.style.cursor ="move";
+			
+			var d = new Date();
+			var xrid = d.getHours()+d.getMinutes()+d.getSeconds()+d.getMilliseconds();
+
+if ( comp == defaultCompression ) { 
+switch ( factor )
+{
+case 0.0625:newImage.src="img/"+newsid+"/full_4.jpg";
+break;
+case 0.125:newImage.src="img/"+newsid+"/full_4.jpg";
+break;
+case 0.25:newImage.src="img/"+newsid+"/full_3.jpg";
+break;
+case 0.5:newImage.src="img/"+newsid+"/full_2.jpg";
+break;
+case 1:newImage.src="img/"+newsid+"/full.jpg";
+break;
+default:newImage.src="img/"+newsid+"/full.jpg";
+break;
+
+}
+ } else { newImage.src="img/"+newsid+"/full.jpg";
+}
+
+			
+			if ( browser.isIE )
+			{
+				var self = this;
+				newImage.onmousedown = function() { self.dragStart(event); };
+			}
+			if ( browser.isMoz )
+			{
+				newImage.setAttribute ("onmousedown", "dragStart(event)" );
+			}
+			if ( browser.isIE )
+			{
+				var self = this;
+				newImage.onload = function() { self.imageLoaded(event); };
+			}
+			if ( browser.isMoz )
+			{
+				newImage.setAttribute ("onload", "imageLoaded(event)" );
+			}
+			newContainer.appendChild ( newImage );	
+			newContainer.style.visibility = "hidden";
+			
+			if (newImage.complete) imageLoaded();		
+		}
+		
+		function panRight ()
+		{
+			currentOffsetX = currentOffsetX + panOffset;
+			dragObject.dragContainer.style.left = currentOffsetX + "px";
+			dragObject.dragContainer.style.top = currentOffsetY + "px";
+		}
+		
+		function panLeft ()
+		{
+			currentOffsetX = currentOffsetX - panOffset;
+			dragObject.dragContainer.style.left = currentOffsetX + "px";
+			dragObject.dragContainer.style.top = currentOffsetY + "px";
+		}
+		
+		function panDown ()
+		{
+			currentOffsetY = currentOffsetY + panOffset;
+			dragObject.dragContainer.style.left = currentOffsetX + "px";
+			dragObject.dragContainer.style.top = currentOffsetY + "px";
+		}
+		
+		function panUp ()
+		{
+			currentOffsetY = currentOffsetY - panOffset;
+			dragObject.dragContainer.style.left = currentOffsetX + "px";
+			dragObject.dragContainer.style.top = currentOffsetY + "px";
+		}
+		
+		function imageLoaded ()
+		{
+			if ( !loaded )
+			{
+				newContainer.style.visibility = "visible";
+				document.getElementById("loading").style.visibility = "hidden";
+				document.getElementById("imageSizeDisplay").innerHTML = document.getElementById("image1").width + "px x " + document.getElementById("image1").height + "px (" + (factor*100) + "%)";
+				loaded = true;
+			}
+		}
+		
+		function openInfoWindow( id )
+		{
+			//window.open('../ImageInfo.aspx?id=' + id, 'imageInfoWindow','toolbar=0,location=no,directories=0,status=0, scrollbars=yes,resizable=0,width=160,height=550,top=100,left=100');
+		}
+		
+		function init ()
+		{
+			
+			if (browser.isIE)
+			{
+				viewportWidth = document.body.clientWidth;
+				viewportHeight = document.body.clientHeight;
+			}
+			if (browser.isMoz)
+			{
+			    if ( self.innerWidth == 0 )
+			    {
+			        setTimeout ("init()", 1000 ); // fix Safari bug where self.innerWidth can be zero if image loads very quickly
+			        return;
+			    }		
+				viewportWidth = self.innerWidth;
+				viewportHeight = self.innerHeight;
+			}
+			
+			
+			viewportWidth = viewportWidth - 300;
+			
+			
+			dragObject.dragContainer = document.getElementById("dragContainer");
+			
+			
+			imageWidth = document.getElementById("image1").width;
+			imageHeight = document.getElementById("image1").height;
+			//currentOffsetX = ((viewportWidth/2) - (imageWidth/2));
+			//currentOffsetY = ((viewportHeight/2) - (imageHeight/2));
+			currentOffsetX = 15;
+			currentOffsetY = 15;
+			dragObject.dragContainer.style.left = currentOffsetX + "px";
+			dragObject.dragContainer.style.top  = currentOffsetY + "px";
+			
+			document.getElementById("image1").style.visibility = "visible";
+			document.getElementById("image1").src = "img/"+newsid+"/full_2.jpg";
+			document.getElementById("imageSizeDisplay").innerHTML = imageWidth + "px x " + imageHeight + "px (" + (factor*100) + "%)";
+			
+			// loading message	
+			document.getElementById("loading").style.visibility = "hidden";		
+			var loadingOffsetX = ((viewportWidth/2) - (200/2));
+			var loadingOffsetY = ((viewportHeight/2) - (76/2));
+			document.getElementById("loading").style.left = loadingOffsetX + "px";
+			document.getElementById("loading").style.top = loadingOffsetY + "px";
+			
+		}
+		
+		
+//]]></script>
+
+</head>
+  <body onload = "init();">
+	<div id="outer">
+		<div id="dragContainer">
+			 <img id="image1" style="VISIBILITY:hidden;CURSOR:move" onmousedown="dragStart(event)" alt="drag image with mouse" title="drag image with mouse"/> 
+		</div>
+		<div id="topmargin">			
+			<a class="viewerlink" id="zoominlink" href="javascript:zoomIn();">Zoom In</a><span class="viewerlink"> | </span>
+			<a class="viewerlink" id="zoomoutlink" href="javascript:zoomOut();">Zoom Out</a><span class="viewerlink"> | </span>	
+			<span class="viewerlink" style="FONT-WEIGHT:normal" id="imageSizeDisplay">Loading image...</span>
+		</div>
+		<div id="sidemargin">
+		</div>
+	</div>
+	
+	<div id="loading">
+	            Loading image<br />
+	            <!-- thanks http://www.ajaxload.info -->
+	            <img src="ajax-loader.gif" alt="Loading image" />
+	</div>
+	
+  </body>
+</html>

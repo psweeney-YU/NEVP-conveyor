@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CanonCameraApp">
+</Property><Property Name="解决方案文件" Value="C:\Users\eming\Desktop\SDKs\CanonCameraApp.sln">
+</Property><Property Name="Date" Value="2012年11月13日">
+</Property><Property Name="Time" Value="15:17">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CanonCameraApp.sln" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp.sln">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\CanonCameraApp.csproj" Description="项目文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\CanonCameraApp.csproj">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\About.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\About.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\About.Designer.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\About.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\CameraProperties.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\CameraProperties.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\CameraProperties.Designer.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\CameraProperties.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\CanonCameraApp.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\CanonCameraApp.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\CanonCameraApp.Designer.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\CanonCameraApp.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\PhotoPreview.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\PhotoPreview.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\PhotoPreview.Designer.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\PhotoPreview.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\Program.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\Program.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\Properties\Resources.Designer.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\Properties\Settings.Designer.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\App.config" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\App.config">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\CanonCameraApp_TemporaryKey.pfx" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\CanonCameraApp_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\Properties\app.manifest" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\Properties\app.manifest">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\Properties\Settings.settings" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\appIcon.ico" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\appIcon.ico">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\About.resx" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\About.resx">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\CameraProperties.resx" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\CameraProperties.resx">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\CanonCameraApp.resx" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\CanonCameraApp.resx">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\Properties\Resources.resx" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\images\batteryAC.png" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\images\batteryAC.png">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\images\batteryEmpty.png" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\images\batteryEmpty.png">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\images\batteryFull.png" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\images\batteryFull.png">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\images\batteryHalf.png" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\images\batteryHalf.png">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\images\batteryLow.png" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\images\batteryLow.png">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\PhotoPreview.resx" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\PhotoPreview.resx">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\images\appIcon.ico" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\images\appIcon.ico">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\images\appIcon.png" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraApp\images\appIcon.png">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\CanonCameraApp.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="CanonCameraApp" Source="CanonCameraApp\CanonCameraApp.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\CanonCameraAppLib.csproj" Description="项目文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\CanonCameraAppLib.csproj">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\BatteryState.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\BatteryState.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Camera.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Camera.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\CameraAPI.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\CameraAPI.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\CameraConstants.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\CameraConstants.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\CapturedItem.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\CapturedItem.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Events\BulbExposureEventArgs.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Events\BulbExposureEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Events\CameraAddedEventArgs.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Events\CameraAddedEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Events\CameraBusyEventArgs.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Events\CameraBusyEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Events\NewItemCreatedEventArgs.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Events\NewItemCreatedEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Events\ProgressEventArgs.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Events\ProgressEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Exceptions\CameraCaptureException.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Exceptions\CameraCaptureException.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Exceptions\CameraCommunicationException.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Exceptions\CameraCommunicationException.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Events\CameraEventArgs.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Events\CameraEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Exceptions\CameraDownloadException.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Exceptions\CameraDownloadException.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Exceptions\CameraEventRegistrationException.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Exceptions\CameraEventRegistrationException.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Exceptions\CameraException.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Exceptions\CameraException.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Exceptions\CameraNotFoundException.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Exceptions\CameraNotFoundException.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Directory.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Directory.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\EDSDK.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\EDSDK.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\ErrorCodes.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\ErrorCodes.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Events\InternalErrorEventArgs.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Events\InternalErrorEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Events\VolumeInfoChangedEventArgs.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Events\VolumeInfoChangedEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Exceptions\CameraUILockException.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Exceptions\CameraUILockException.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Events\PropertyChangedEventArgs.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Events\PropertyChangedEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Exceptions\PropertyUnavailableException.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Exceptions\PropertyUnavailableException.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Property.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Property.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\PropertyManager.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\PropertyManager.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\PropertyType.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\PropertyType.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Remote\RemoteClient.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Remote\RemoteClient.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Remote\RemoteCommand.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Remote\RemoteCommand.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Remote\RemoteCommandEventArgs.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Remote\RemoteCommandEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Remote\RemoteMessage.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Remote\RemoteMessage.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Remote\RemoteServer.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Remote\RemoteServer.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Events\ShutdownEminentEventArgs.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Events\ShutdownEminentEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Events\ShutdownEventArgs.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Events\ShutdownEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Events\ShutdownTimerUpdateEventArgs.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Events\ShutdownTimerUpdateEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\ShutterState.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\ShutterState.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\StorageMedia.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\StorageMedia.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\StorageMediaType.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\StorageMediaType.cs">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Documentation\CanonCameraApp.cd" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Documentation\CanonCameraApp.cd">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Documentation\Events.cd" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Documentation\Events.cd">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Documentation\Exceptions.cd" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Documentation\Exceptions.cd">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\DPPDLL.dll" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\DPPDLL.dll">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\MLib.dll" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\MLib.dll">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\DPPLibCom.dll" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\DPPLibCom.dll">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\DPPRSC.dll" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\DPPRSC.dll">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\EDSDK.dll" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\EDSDK.dll">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\EdsImage.dll" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\EdsImage.dll">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\Ucs32P.dll" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonCameraAppLib\Ucs32P.dll">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\CanonCameraAppLib.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="CanonCameraAppLib" Source="CanonCameraAppLib\CanonCameraAppLib.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\CanonWebApp.csproj" Description="项目文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\CanonWebApp.csproj">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\Controls\BasicControlPanel.ascx.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\Controls\BasicControlPanel.ascx.cs">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\Controls\BasicControlPanel.ascx.designer.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\Controls\BasicControlPanel.ascx.designer.cs">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\Default.aspx.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\Default.aspx.cs">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\Default.aspx.designer.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\Default.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\MasterPage.Master.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\MasterPage.Master.cs">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\MasterPage.Master.designer.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\MasterPage.Master.designer.cs">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\Controls\BasicControlPanel.ascx" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\Controls\BasicControlPanel.ascx">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\Web.config" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\Web.config">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\Default.aspx" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\Default.aspx">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\images\10.png" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\images\10.png">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\images\2.png" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\images\2.png">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\images\5.png" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\images\5.png">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\images\controlbg.png" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\images\controlbg.png">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\images\star.png" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\images\star.png">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\images\webClip.png" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\images\webClip.png">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\MasterPage.Master" Description="文件已成功备份为 C:\Users\eming\Desktop\SDKs\Backup\CanonWebApp\MasterPage.Master">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\CanonWebApp.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="CanonWebApp" Source="CanonWebApp\CanonWebApp.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CanonCameraApp.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="CanonCameraApp.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CanonCameraApp" Source="CanonCameraApp\CanonCameraApp.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="CanonCameraAppLib" Source="CanonCameraAppLib\CanonCameraAppLib.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="CanonWebApp" Source="CanonWebApp\CanonWebApp.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

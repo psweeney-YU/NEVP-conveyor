@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://main.herbarium.ou.edu/" targetNamespace="http://main.herbarium.ou.edu/" version="1.0">
+
+  <xs:element name="deleteInstitute" type="tns:deleteInstitute"/>
+
+  <xs:element name="deleteInstituteResponse" type="tns:deleteInstituteResponse"/>
+
+  <xs:element name="deleteSystem" type="tns:deleteSystem"/>
+
+  <xs:element name="deleteSystemResponse" type="tns:deleteSystemResponse"/>
+
+  <xs:element name="deleteSystemSetting" type="tns:deleteSystemSetting"/>
+
+  <xs:element name="deleteSystemSettingResponse" type="tns:deleteSystemSettingResponse"/>
+
+  <xs:element name="getAuthorities" type="tns:getAuthorities"/>
+
+  <xs:element name="getAuthoritiesResponse" type="tns:getAuthoritiesResponse"/>
+
+  <xs:element name="getCollections" type="tns:getCollections"/>
+
+  <xs:element name="getCollectionsResponse" type="tns:getCollectionsResponse"/>
+
+  <xs:element name="getCollectors" type="tns:getCollectors"/>
+
+  <xs:element name="getCollectorsByName" type="tns:getCollectorsByName"/>
+
+  <xs:element name="getCollectorsByNameResponse" type="tns:getCollectorsByNameResponse"/>
+
+  <xs:element name="getCollectorsByPage" type="tns:getCollectorsByPage"/>
+
+  <xs:element name="getCollectorsByPageResponse" type="tns:getCollectorsByPageResponse"/>
+
+  <xs:element name="getCollectorsBySpecimen" type="tns:getCollectorsBySpecimen"/>
+
+  <xs:element name="getCollectorsBySpecimenResponse" type="tns:getCollectorsBySpecimenResponse"/>
+
+  <xs:element name="getCollectorsResponse" type="tns:getCollectorsResponse"/>
+
+  <xs:element name="getFolders" type="tns:getFolders"/>
+
+  <xs:element name="getFoldersResponse" type="tns:getFoldersResponse"/>
+
+  <xs:element name="getImageRaw" type="tns:getImageRaw"/>
+
+  <xs:element name="getImageRawResponse" type="tns:getImageRawResponse"/>
+
+  <xs:element name="getInstitutes" type="tns:getInstitutes"/>
+
+  <xs:element name="getInstitutesResponse" type="tns:getInstitutesResponse"/>
+
+  <xs:element name="getParent" type="tns:getParent"/>
+
+  <xs:element name="getParentResponse" type="tns:getParentResponse"/>
+
+  <xs:element name="getScms" type="tns:getScms"/>
+
+  <xs:element name="getScmsResponse" type="tns:getScmsResponse"/>
+
+  <xs:element name="getSettings" type="tns:getSettings"/>
+
+  <xs:element name="getSettingsResponse" type="tns:getSettingsResponse"/>
+
+  <xs:element name="getSpecimenById" type="tns:getSpecimenById"/>
+
+  <xs:element name="getSpecimenByIdResponse" type="tns:getSpecimenByIdResponse"/>
+
+  <xs:element name="getSpecimenNumberByFolder" type="tns:getSpecimenNumberByFolder"/>
+
+  <xs:element name="getSpecimenNumberByFolderResponse" type="tns:getSpecimenNumberByFolderResponse"/>
+
+  <xs:element name="getSpecimens" type="tns:getSpecimens"/>
+
+  <xs:element name="getSpecimens2" type="tns:getSpecimens2"/>
+
+  <xs:element name="getSpecimens2Response" type="tns:getSpecimens2Response"/>
+
+  <xs:element name="getSpecimensByFolder" type="tns:getSpecimensByFolder"/>
+
+  <xs:element name="getSpecimensByFolderResponse" type="tns:getSpecimensByFolderResponse"/>
+
+  <xs:element name="getSpecimensByWeek" type="tns:getSpecimensByWeek"/>
+
+  <xs:element name="getSpecimensByWeekResponse" type="tns:getSpecimensByWeekResponse"/>
+
+  <xs:element name="getSpecimensResponse" type="tns:getSpecimensResponse"/>
+
+  <xs:element name="getSystems" type="tns:getSystems"/>
+
+  <xs:element name="getSystemsResponse" type="tns:getSystemsResponse"/>
+
+  <xs:element name="getTopFolders" type="tns:getTopFolders"/>
+
+  <xs:element name="getTopFoldersResponse" type="tns:getTopFoldersResponse"/>
+
+  <xs:element name="getUserByName" type="tns:getUserByName"/>
+
+  <xs:element name="getUserByNameResponse" type="tns:getUserByNameResponse"/>
+
+  <xs:element name="getUsers" type="tns:getUsers"/>
+
+  <xs:element name="getUsersResponse" type="tns:getUsersResponse"/>
+
+  <xs:element name="insertCollector" type="tns:insertCollector"/>
+
+  <xs:element name="insertCollector2" type="tns:insertCollector2"/>
+
+  <xs:element name="insertCollector2Response" type="tns:insertCollector2Response"/>
+
+  <xs:element name="insertCollectorResponse" type="tns:insertCollectorResponse"/>
+
+  <xs:element name="insertFolder" type="tns:insertFolder"/>
+
+  <xs:element name="insertFolderResponse" type="tns:insertFolderResponse"/>
+
+  <xs:element name="insertInstitute" type="tns:insertInstitute"/>
+
+  <xs:element name="insertInstituteResponse" type="tns:insertInstituteResponse"/>
+
+  <xs:element name="insertSpecimen" type="tns:insertSpecimen"/>
+
+  <xs:element name="insertSpecimenResponse" type="tns:insertSpecimenResponse"/>
+
+  <xs:element name="insertSystem" type="tns:insertSystem"/>
+
+  <xs:element name="insertSystemResponse" type="tns:insertSystemResponse"/>
+
+  <xs:element name="insertSystemSetting" type="tns:insertSystemSetting"/>
+
+  <xs:element name="insertSystemSettingResponse" type="tns:insertSystemSettingResponse"/>
+
+  <xs:element name="insertUser" type="tns:insertUser"/>
+
+  <xs:element name="insertUserResponse" type="tns:insertUserResponse"/>
+
+  <xs:element name="setPort" type="tns:setPort"/>
+
+  <xs:element name="setPortResponse" type="tns:setPortResponse"/>
+
+  <xs:element name="updateCollector" type="tns:updateCollector"/>
+
+  <xs:element name="updateCollectorResponse" type="tns:updateCollectorResponse"/>
+
+  <xs:element name="updateInstitute" type="tns:updateInstitute"/>
+
+  <xs:element name="updateInstituteResponse" type="tns:updateInstituteResponse"/>
+
+  <xs:element name="updateSpecimen" type="tns:updateSpecimen"/>
+
+  <xs:element name="updateSpecimenResponse" type="tns:updateSpecimenResponse"/>
+
+  <xs:element name="updateSystem" type="tns:updateSystem"/>
+
+  <xs:element name="updateSystemResponse" type="tns:updateSystemResponse"/>
+
+  <xs:element name="updateSystemSetting" type="tns:updateSystemSetting"/>
+
+  <xs:element name="updateSystemSettingResponse" type="tns:updateSystemSettingResponse"/>
+
+  <xs:element name="updateUser" type="tns:updateUser"/>
+
+  <xs:element name="updateUserResponse" type="tns:updateUserResponse"/>
+
+  <xs:element name="validateLogin" type="tns:validateLogin"/>
+
+  <xs:element name="validateLoginResponse" type="tns:validateLoginResponse"/>
+
+  <xs:complexType name="deleteInstitute">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:institute"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="institute">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="deleted" type="xs:int"/>
+      <xs:element minOccurs="0" name="instituteId" type="xs:int"/>
+      <xs:element minOccurs="0" name="instituteInfo" type="xs:string"/>
+      <xs:element minOccurs="0" name="instituteName" type="xs:string"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="ownerships" nillable="true" type="tns:ownership"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="systems" nillable="true" type="tns:system"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ownership">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ownershipId" type="xs:int"/>
+      <xs:element minOccurs="0" name="rights" type="xs:string"/>
+      <xs:element minOccurs="0" name="usage" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="system">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="deleted" type="xs:int"/>
+      <xs:element minOccurs="0" name="systemDescription" type="xs:string"/>
+      <xs:element minOccurs="0" name="systemId" type="xs:int"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="systemSettings" nillable="true" type="tns:systemSetting"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="systemSetting">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cameraAperture" type="xs:int"/>
+      <xs:element minOccurs="0" name="cameraExpoTime" type="xs:string"/>
+      <xs:element minOccurs="0" name="cameraIso" type="xs:int"/>
+      <xs:element minOccurs="0" name="cameraName" type="xs:string"/>
+      <xs:element minOccurs="0" name="colorTargetPositionX" type="xs:int"/>
+      <xs:element minOccurs="0" name="colorTargetPositionY" type="xs:int"/>
+      <xs:element minOccurs="0" name="conveyorVoltage" type="xs:int"/>
+      <xs:element minOccurs="0" name="deleted" type="xs:int"/>
+      <xs:element minOccurs="0" name="installationUrl" type="xs:string"/>
+      <xs:element minOccurs="0" name="sensorVoltage" type="xs:int"/>
+      <xs:element minOccurs="0" name="settingDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="settingId" type="xs:int"/>
+      <xs:element minOccurs="0" name="workspacePath" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="deleteInstituteResponse">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getSpecimenNumberByFolder">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getSpecimenNumberByFolderResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getCollections">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getCollectionsResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:collection"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="collection">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="collectionCode" type="xs:string"/>
+      <xs:element minOccurs="0" name="collectionId" type="xs:int"/>
+      <xs:element minOccurs="0" name="collectionInfo" type="xs:string"/>
+      <xs:element minOccurs="0" name="institute" type="tns:institute"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getCollectors">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getCollectorsResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:collector"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="collector">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="birth" type="xs:string"/>
+      <xs:element minOccurs="0" name="collectorFullName" type="xs:string"/>
+      <xs:element minOccurs="0" name="collectorId" type="xs:int"/>
+      <xs:element minOccurs="0" name="collectorInfo" type="xs:string"/>
+      <xs:element minOccurs="0" name="collectorNo" type="xs:string"/>
+      <xs:element minOccurs="0" name="death" type="xs:string"/>
+      <xs:element minOccurs="0" name="deleted" type="xs:int"/>
+      <xs:element minOccurs="0" name="guid" type="xs:string"/>
+      <xs:element minOccurs="0" name="imageData" type="tns:imageData"/>
+      <xs:element minOccurs="0" name="institute" type="xs:int"/>
+      <xs:element minOccurs="0" name="isGroup" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="imageData">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="collectors" nillable="true" type="tns:collector"/>
+      <xs:element minOccurs="0" name="imageDataId" type="xs:int"/>
+      <xs:element minOccurs="0" name="imageDataPath" type="xs:string"/>
+      <xs:element minOccurs="0" name="imageDataType" type="xs:int"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="specimens" nillable="true" type="tns:specimen"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="specimen">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="barcode" type="xs:string"/>
+      <xs:element minOccurs="0" name="beginEventDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="checksum" type="xs:string"/>
+      <xs:element minOccurs="0" name="collection" type="tns:collection"/>
+      <xs:element minOccurs="0" name="collectionCode" type="xs:string"/>
+      <xs:element minOccurs="0" name="collectorNotes" type="xs:string"/>
+      <xs:element minOccurs="0" name="country" type="xs:string"/>
+      <xs:element minOccurs="0" name="county" type="xs:string"/>
+      <xs:element minOccurs="0" name="creationDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="darwinCountry" type="xs:string"/>
+      <xs:element minOccurs="0" name="endEventDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="exportDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="family" type="xs:string"/>
+      <xs:element minOccurs="0" name="folderName" type="xs:string"/>
+      <xs:element minOccurs="0" name="folderNumber" type="xs:int"/>
+      <xs:element minOccurs="0" name="generalNotes" type="xs:string"/>
+      <xs:element minOccurs="0" name="genus" type="xs:string"/>
+      <xs:element minOccurs="0" name="handler" type="xs:base64Binary"/>
+      <xs:element minOccurs="0" name="herbarium" type="xs:string"/>
+      <xs:element minOccurs="0" name="identificationQualifier" type="xs:string"/>
+      <xs:element minOccurs="0" name="idropSync" type="xs:short"/>
+      <xs:element minOccurs="0" name="imageData" type="tns:imageData"/>
+      <xs:element minOccurs="0" name="imageError" type="xs:int"/>
+      <xs:element minOccurs="0" name="imagePath" type="xs:string"/>
+      <xs:element minOccurs="0" name="imageRaw" type="tns:imageRaw"/>
+      <xs:element minOccurs="0" name="infraspecificEpithet" type="xs:string"/>
+      <xs:element minOccurs="0" name="infraspecificRank" type="xs:string"/>
+      <xs:element minOccurs="0" name="missingInfo" type="xs:int"/>
+      <xs:element minOccurs="0" name="modificationDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="recordDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="recordEnterBy" type="xs:string"/>
+      <xs:element minOccurs="0" name="recordNumber" type="xs:string"/>
+      <xs:element minOccurs="0" name="recordedByGuid" type="xs:string"/>
+      <xs:element minOccurs="0" name="scientificName" type="xs:string"/>
+      <xs:element minOccurs="0" name="scientificNameAuthorship" type="xs:string"/>
+      <xs:element minOccurs="0" name="sheetNotes" type="xs:string"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="specCollectorMaps" nillable="true" type="tns:specCollectorMap"/>
+      <xs:element minOccurs="0" name="specificEpithet" type="xs:string"/>
+      <xs:element minOccurs="0" name="specimenId" type="xs:int"/>
+      <xs:element minOccurs="0" name="specimenType" type="xs:int"/>
+      <xs:element minOccurs="0" name="stateProvince" type="xs:string"/>
+      <xs:element minOccurs="0" name="storageLocation" type="xs:string"/>
+      <xs:element minOccurs="0" name="system" type="tns:system"/>
+      <xs:element minOccurs="0" name="town" type="xs:string"/>
+      <xs:element minOccurs="0" name="user" type="tns:user"/>
+      <xs:element minOccurs="0" name="verbatimEventDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="watermark" type="xs:string"/>
+      <xs:element minOccurs="0" name="watermarkDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="writtenNumber" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="imageRaw">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="handler" type="xs:base64Binary"/>
+      <xs:element minOccurs="0" name="imageRawId" type="xs:int"/>
+      <xs:element minOccurs="0" name="imageRawName" type="xs:string"/>
+      <xs:element minOccurs="0" name="imageRawPath" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="specCollectorMap">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="collector" type="tns:collector"/>
+      <xs:element minOccurs="0" name="specCollectorMapId" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="user">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="createTime" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="deleted" type="xs:int"/>
+      <xs:element minOccurs="0" name="email" type="xs:string"/>
+      <xs:element minOccurs="0" name="iplantAddress" type="xs:string"/>
+      <xs:element minOccurs="0" name="iplantPassword" type="xs:string"/>
+      <xs:element minOccurs="0" name="iplantUserName" type="xs:string"/>
+      <xs:element minOccurs="0" name="iplantZone" type="xs:string"/>
+      <xs:element minOccurs="0" name="lastLoginTime" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="password" type="xs:string"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="userAuthorityMaps" nillable="true" type="tns:userAuthorityMap"/>
+      <xs:element minOccurs="0" name="userId" type="xs:int"/>
+      <xs:element minOccurs="0" name="username" type="xs:string"/>
+      <xs:element minOccurs="0" name="uuid" type="xs:string"/>
+      <xs:element minOccurs="0" name="worksplaceUrl" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="userAuthorityMap">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="authority" type="tns:authority"/>
+      <xs:element minOccurs="0" name="userAuthorityMapId" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="authority">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="authorityId" type="xs:int"/>
+      <xs:element minOccurs="0" name="authorityName" type="xs:string"/>
+      <xs:element minOccurs="0" name="authorityTabClass" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getUsers">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getUsersResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:user"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updateUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:user"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updateUserResponse">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="insertCollector">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertCollectorResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:collector"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertSystem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+      <xs:element name="arg1" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertSystemResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:system"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getTopFolders">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getTopFoldersResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:folder"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="folder">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="folder" type="tns:folder"/>
+      <xs:element minOccurs="0" name="folderId" type="xs:int"/>
+      <xs:element minOccurs="0" name="folderInfo" type="xs:string"/>
+      <xs:element minOccurs="0" name="folderName" type="xs:string"/>
+      <xs:element minOccurs="0" name="folderPath" type="xs:string"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="folders" nillable="true" type="tns:folder"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="specimens" nillable="true" type="tns:specimen"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="deleteSystem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:system"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="deleteSystemResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:system"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertCollector2">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:collector"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertCollector2Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:collector"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertInstitute">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertInstituteResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:institute"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getSpecimens">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getSpecimensResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:specimen"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getScms">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getScmsResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:specCollectorMap"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updateSystemSetting">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:systemSetting"/>
+      <xs:element minOccurs="0" name="arg1" type="tns:system"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updateSystemSettingResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:systemSetting"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getSystems">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getSystemsResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:system"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getParent">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getParentResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:folder"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getSpecimenById">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getSpecimenByIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:specimen"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="setPort">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="setPortResponse">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getSpecimensByWeek">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+      <xs:element name="arg1" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getSpecimensByWeekResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:specimen"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getCollectorsBySpecimen">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:specimen"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getCollectorsBySpecimenResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:collector"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="deleteSystemSetting">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:systemSetting"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="deleteSystemSettingResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:systemSetting"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getAuthorities">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getAuthoritiesResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:authority"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getInstitutes">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getInstitutesResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:institute"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updateSpecimen">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:specimen"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updateSpecimenResponse">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getImageRaw">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getImageRawResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:imageRaw"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getCollectorsByName">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getCollectorsByNameResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:collector"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertSystemSetting">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:int"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg2" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg3" type="xs:int"/>
+      <xs:element minOccurs="0" name="arg4" type="xs:int"/>
+      <xs:element minOccurs="0" name="arg5" type="xs:int"/>
+      <xs:element minOccurs="0" name="arg6" type="xs:int"/>
+      <xs:element minOccurs="0" name="arg7" type="xs:int"/>
+      <xs:element minOccurs="0" name="arg8" type="xs:int"/>
+      <xs:element minOccurs="0" name="arg9" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertSystemSettingResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:systemSetting"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getSettings">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getSettingsResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:systemSetting"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertFolder">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg2" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertFolderResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:folder"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getUserByName">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getUserByNameResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:user"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updateInstitute">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:institute"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updateInstituteResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:institute"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updateSystem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:system"/>
+      <xs:element name="arg1" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updateSystemResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:system"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertSpecimen">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg2" type="tns:specimen"/>
+      <xs:element minOccurs="0" name="arg3" type="xs:base64Binary"/>
+      <xs:element minOccurs="0" name="arg4" type="xs:base64Binary"/>
+      <xs:element minOccurs="0" name="arg5" type="xs:base64Binary"/>
+      <xs:element minOccurs="0" name="arg6" type="xs:base64Binary"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertSpecimenResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:specimen"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg2" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg3" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg4" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg5" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg6" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="insertUserResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:user"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updateCollector">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:collector"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updateCollectorResponse">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getCollectorsByPage">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+      <xs:element name="arg1" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getCollectorsByPageResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:collector"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="validateLogin">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="validateLoginResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:user"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getSpecimens2">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+      <xs:element name="arg1" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getSpecimens2Response">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:specimen"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getFolders">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getFoldersResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:folder"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getSpecimensByFolder">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getSpecimensByFolderResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:specimen"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

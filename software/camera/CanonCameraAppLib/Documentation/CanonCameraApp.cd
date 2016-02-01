@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CanonCameraAppLib.Camera">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIpJCAGIiAEAAAQgIgCABgSAAIEEEQKDgDyAACAAkBA=</HashCode>
+      <FileName>Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanonCameraAppLib.CameraAPI">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAAEAAAAAAAAAIAAAAAAAAEAAAAAAQBAAAQAAAAA=</HashCode>
+      <FileName>CameraAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanonCameraAppLib.Directory" Collapsed="true">
+    <Position X="13.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Directory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanonCameraAppLib.PropertyManager">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAEAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>PropertyManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanonCameraAppLib.StorageMedia">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEMAAADBAAAAIAAAACAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StorageMedia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CanonCameraAppLib.BatteryState">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAABAAAIAAAAAAAgAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>BatteryState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CanonCameraAppLib.StorageMediaType">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAEgAAA=</HashCode>
+      <FileName>StorageMediaType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CanonCameraAppLib.ErrorCodes">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sylBth8HYUMhyCkswkpJCjixMAhKppAYVLvxJBDoBwg=</HashCode>
+      <FileName>ErrorCodes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CanonCameraAppLib.PropertyType">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hQTYpIijSQYMYBI8wARtLACBApHsAQSwWcSBZZcKi1k=</HashCode>
+      <FileName>PropertyType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CanonCameraAppLib.ShutterState">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAIIAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>ShutterState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
