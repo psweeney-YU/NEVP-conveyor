@@ -1,1 +1,1 @@
-
+System schematics and workflow diagrams are published in Sweeney, P.W., Starly, B., Morris, P.J., Xu, Y., Jones, A., Radhakrishnan, S., Grassa, C.J. and Davis, C.C., 2018. Large-scale digitization of herbarium specimens: development and usage of an automated, high-throughput conveyor system. Taxon, 67(1), pp.165-178.
